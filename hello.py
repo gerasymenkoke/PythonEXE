@@ -17,7 +17,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(sys.argv[0]))
 
 
 def main():
-    print('hello world')
+    print('hello Kostya')
     print('contacting google.com...')
     r = requests.head("https://www.google.com")
     print("status code:", r.status_code)
